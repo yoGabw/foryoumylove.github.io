@@ -6,13 +6,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(135deg, #ffd1dc, #ffb7c5);
+    background: linear-gradient(135deg, #ffffff, #fc91b1);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
-    color: #8a1c4a;
+    color: lab(57.01% 47.5 -4.4);
 }
 
 /* Password Modal */
@@ -46,7 +46,7 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 32px;
     margin-bottom: 20px;
-    color: #d81b60;
+    color: #701038;
 }
 
 .password-input {
@@ -171,7 +171,7 @@ body {
 /* Love Letter Tab */
 .letter {
     padding: 20px;
-    background: #fff5f7;
+    background: #e4dee4;
     border-radius: 15px;
     border: 2px dashed #ffb7c5;
     margin-bottom: 20px;

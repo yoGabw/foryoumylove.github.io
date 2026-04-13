@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const submitPassword = document.getElementById('submitPassword');
 
     submitPassword.addEventListener('click', function() {
-        if (passwordInput.value.toLowerCase() === 'babycakes') {
+        if (passwordInput.value.toLowerCase() === 'stinkie') {
             passwordModal.style.opacity = '0';
             setTimeout(() => {
                 passwordModal.style.display = 'none';
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             passwordInput.style.borderColor = '#ff4d4d';
             setTimeout(() => {
                 passwordInput.style.borderColor = '#ffb7c5';
-                passwordInput.placeholder = 'Our special word...';
+                passwordInput.placeholder = 'hmmm...';
             }, 1500);
         }
     });
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    const loveLetter = document.getElementById('loveLetter');
+    const loveLetter = document.getElementById('Letter');
     loveLetter.addEventListener('click', function() {
         this.classList.toggle('expanded');
     });
